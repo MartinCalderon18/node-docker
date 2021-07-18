@@ -30,4 +30,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'DockerHub01'
+        repository: 'martincalderon'
         command: 'push'
+        tags: v1
