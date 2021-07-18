@@ -32,5 +32,3 @@ stages:
         containerRegistry: 'DockerHub01'
         repository: 'martincalderon'
         command: 'push'
-        tags: |
-          v1
