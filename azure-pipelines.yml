@@ -31,4 +31,4 @@ stages:
          Dockerfile: '$(Build.SourcesDirectory)/app/dockerfile'
          tags: |
            $(Build.BuildId)
-           nodedemo01
+           nodedemo02
